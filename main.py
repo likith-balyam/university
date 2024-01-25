@@ -29,7 +29,6 @@ if __name__ == "__main__":
         
         # p = no of ways didnt attend the ceremony / total no of valid ways to attend classes (total ways to attend classes)
         print(f"for {graduation_days} days : {missed_graduation}/{possible_ways}")
-        print(student_obj.valid_ways_to_attend)
     except:
         raise Exception("Invalid Input")
 
